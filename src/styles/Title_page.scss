@@ -1,6 +1,6 @@
 .title__page{
 
-    &__container{
+    &-container{
         max-width: 855px;
         padding: 127px 0 31px;
         margin: auto;
@@ -9,7 +9,7 @@
         margin-bottom: 71px;
     }
 
-    &__header{
+    &-header{
         margin-right: 106px;
         display: flex;
         flex-direction: column;
@@ -17,7 +17,7 @@
         justify-content: space-between;
     }
 
-    &__title{
+    &-title{
         font-family: 'Heebo';
         font-style: normal;
         font-weight: 700;
@@ -26,7 +26,7 @@
         color: #21243D;
     }
 
-    &__text{
+    &-text{
         font-family: 'Heebo';
         font-style: normal;
         font-weight: 400;
@@ -34,12 +34,12 @@
         line-height: 24px;
     }
 
-    &__image{
+    &-image{
         height: 243px;
         width: 243px;
     }
 
-    &__button{
+    &-button{
         width: 208px;
         height: 47px;
         background: #FF6464;
@@ -48,7 +48,7 @@
         padding: 9px 17px 20px 21px;
     }
 
-    &__button__text{
+    &-button-text{
         text-align: center;
         font-family: 'Heebo';
         font-style: normal;
